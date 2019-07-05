@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>vue | 文档</title>
+    <meta name="description" content="lxf">
+    <link rel="icon" href="/favicon.ico">
+    
+    <link rel="preload" href="/assets/css/0.styles.a8a183f9.css" as="style"><link rel="preload" href="/assets/js/app.5e77e4be.js" as="script"><link rel="preload" href="/assets/js/2.692b3673.js" as="script"><link rel="preload" href="/assets/js/19.eb48f4ad.js" as="script"><link rel="prefetch" href="/assets/js/10.503c3802.js"><link rel="prefetch" href="/assets/js/11.202f657b.js"><link rel="prefetch" href="/assets/js/12.33eddaf1.js"><link rel="prefetch" href="/assets/js/13.bf028bd5.js"><link rel="prefetch" href="/assets/js/14.a5750e94.js"><link rel="prefetch" href="/assets/js/15.f5ad38e2.js"><link rel="prefetch" href="/assets/js/16.ee91c299.js"><link rel="prefetch" href="/assets/js/17.80db3c36.js"><link rel="prefetch" href="/assets/js/18.f4b62bb7.js"><link rel="prefetch" href="/assets/js/20.5b552248.js"><link rel="prefetch" href="/assets/js/21.6a7fe824.js"><link rel="prefetch" href="/assets/js/22.bce7937b.js"><link rel="prefetch" href="/assets/js/23.a4fb690a.js"><link rel="prefetch" href="/assets/js/24.1f29a116.js"><link rel="prefetch" href="/assets/js/25.578713fc.js"><link rel="prefetch" href="/assets/js/26.543d14fa.js"><link rel="prefetch" href="/assets/js/27.13f010f0.js"><link rel="prefetch" href="/assets/js/28.d2f23580.js"><link rel="prefetch" href="/assets/js/29.2fbad864.js"><link rel="prefetch" href="/assets/js/3.56e9d7f0.js"><link rel="prefetch" href="/assets/js/4.1f2719b5.js"><link rel="prefetch" href="/assets/js/5.d73ec0b5.js"><link rel="prefetch" href="/assets/js/6.987dfafb.js"><link rel="prefetch" href="/assets/js/7.2312182b.js"><link rel="prefetch" href="/assets/js/8.eaebc0fe.js"><link rel="prefetch" href="/assets/js/9.43411072.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.a8a183f9.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">文档</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">首页</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">文章</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/softskill/" class="nav-link">软技能</a></li><li class="dropdown-item"><!----> <a href="/webgl/" class="nav-link">webgl</a></li></ul></div></div><div class="nav-item"><a href="https://juejin.im/user/5b0f41de518825153a440dd9" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  掘金
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://github.com/ggwork" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://www.zhihu.com/people/yagb/activities" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  知乎
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">首页</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">文章</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/softskill/" class="nav-link">软技能</a></li><li class="dropdown-item"><!----> <a href="/webgl/" class="nav-link">webgl</a></li></ul></div></div><div class="nav-item"><a href="https://juejin.im/user/5b0f41de518825153a440dd9" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  掘金
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://github.com/ggwork" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://www.zhihu.com/people/yagb/activities" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  知乎
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>消化堆</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>js</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>片段</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/FAQ/fragment/vue.html" class="active sidebar-link">vue</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/FAQ/fragment/vue.html#事件处理：" class="sidebar-link">事件处理：</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/FAQ/fragment/vue.html#直接写表达式：" class="sidebar-link">直接写表达式：</a></li><li class="sidebar-sub-header"><a href="/FAQ/fragment/vue.html#调用方法：" class="sidebar-link">调用方法：</a></li></ul></li><li class="sidebar-sub-header"><a href="/FAQ/fragment/vue.html#基本骨架：" class="sidebar-link">基本骨架：</a></li><li class="sidebar-sub-header"><a href="/FAQ/fragment/vue.html#子组件：" class="sidebar-link">子组件：</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/FAQ/fragment/vue.html#父组件：" class="sidebar-link">父组件：</a></li><li class="sidebar-sub-header"><a href="/FAQ/fragment/vue.html#子组件：-2" class="sidebar-link">子组件：</a></li></ul></li><li class="sidebar-sub-header"><a href="/FAQ/fragment/vue.html#axios-post请求：" class="sidebar-link">axios-post请求：</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/FAQ/fragment/vue.html#axios-get请求：" class="sidebar-link">axios-get请求：</a></li></ul></li><li class="sidebar-sub-header"><a href="/FAQ/fragment/vue.html#v-if：" class="sidebar-link">v-if：</a></li><li class="sidebar-sub-header"><a href="/FAQ/fragment/vue.html#v-for：" class="sidebar-link">v-for：</a></li><li class="sidebar-sub-header"><a href="/FAQ/fragment/vue.html#遍历对象：" class="sidebar-link">遍历对象：</a></li><li class="sidebar-sub-header"><a href="/FAQ/fragment/vue.html#与v-if混合使用：" class="sidebar-link">&amp;与v-if混合使用：</a></li><li class="sidebar-sub-header"><a href="/FAQ/fragment/vue.html#路由方法：" class="sidebar-link">路由方法：</a></li><li class="sidebar-sub-header"><a href="/FAQ/fragment/vue.html#使用计算属性：" class="sidebar-link">使用计算属性：</a></li><li class="sidebar-sub-header"><a href="/FAQ/fragment/vue.html#动态class：" class="sidebar-link">动态class：</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/FAQ/fragment/vue.html#_1-对象内表达式：" class="sidebar-link">1. 对象内表达式：</a></li><li class="sidebar-sub-header"><a href="/FAQ/fragment/vue.html#_2-返回字符串的表达式：" class="sidebar-link">2.返回字符串的表达式：</a></li><li class="sidebar-sub-header"><a href="/FAQ/fragment/vue.html#_3-数组内表达式：" class="sidebar-link">3.数组内表达式：</a></li><li class="sidebar-sub-header"><a href="/FAQ/fragment/vue.html#变量和字符串混合：" class="sidebar-link">变量和字符串混合：</a></li></ul></li><li class="sidebar-sub-header"><a href="/FAQ/fragment/vue.html#设置style：" class="sidebar-link">设置style：</a></li><li class="sidebar-sub-header"><a href="/FAQ/fragment/vue.html#路由跳转：" class="sidebar-link">路由跳转：</a></li><li class="sidebar-sub-header"><a href="/FAQ/fragment/vue.html#目标路由获取query：" class="sidebar-link">目标路由获取query：</a></li><li class="sidebar-sub-header"><a href="/FAQ/fragment/vue.html#store" class="sidebar-link">store:</a></li><li class="sidebar-sub-header"><a href="/FAQ/fragment/vue.html#async-await" class="sidebar-link">async await:</a></li><li class="sidebar-sub-header"><a href="/FAQ/fragment/vue.html#promise" class="sidebar-link">Promise:</a></li><li class="sidebar-sub-header"><a href="/FAQ/fragment/vue.html#变量与表达式：" class="sidebar-link">变量与表达式：</a></li><li class="sidebar-sub-header"><a href="/FAQ/fragment/vue.html#为dom元素添加事件：" class="sidebar-link">为dom元素添加事件：</a></li><li class="sidebar-sub-header"><a href="/FAQ/fragment/vue.html#css中使用背景图片：" class="sidebar-link">css中使用背景图片：</a></li><li class="sidebar-sub-header"><a href="/FAQ/fragment/vue.html#nexttick：" class="sidebar-link">nextTick：</a></li><li class="sidebar-sub-header"><a href="/FAQ/fragment/vue.html#watch" class="sidebar-link">watch:</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="vue"><a href="#vue" aria-hidden="true" class="header-anchor">#</a> vue</h1> <h2 id="事件处理："><a href="#事件处理：" aria-hidden="true" class="header-anchor">#</a> 事件处理：</h2> <h3 id="直接写表达式："><a href="#直接写表达式：" aria-hidden="true" class="header-anchor">#</a> 直接写表达式：</h3> <div class="language-js extra-class"><pre class="language-js"><code>     @click<span class="token operator">=</span><span class="token string">&quot;counter += 1&quot;</span>
+</code></pre></div><h3 id="调用方法："><a href="#调用方法：" aria-hidden="true" class="header-anchor">#</a> 调用方法：</h3> <div class="language- extra-class"><pre class="language-text"><code>     @click=&quot;greet&quot;
+     @click=&quot;greet(index)&quot; 
+     //获取事件对象：
+     @click=&quot;warn('no', $event)&quot;
+     //事件修饰符:
+     @click.stop.prevent=&quot;doThat&quot;
+     //按键修饰符：
+     @keyup.13=&quot;submit&quot;
+ 
+</code></pre></div><h2 id="基本骨架："><a href="#基本骨架：" aria-hidden="true" class="header-anchor">#</a> 基本骨架：</h2> <div class="language-js extra-class"><pre class="language-js"><code>        <span class="token operator">&lt;</span>script type<span class="token operator">=</span><span class="token string">&quot;text/ecmascript-6&quot;</span><span class="token operator">&gt;</span>
+        <span class="token keyword">import</span> axios <span class="token keyword">from</span> <span class="token string">'axios'</span>
+        <span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+        <span class="token function">data</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+            <span class="token keyword">return</span> <span class="token punctuation">{</span>
+                useId<span class="token punctuation">:</span><span class="token string">''</span>
+            <span class="token punctuation">}</span>
+
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token function">created</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+                <span class="token operator">...</span><span class="token operator">...</span><span class="token operator">...</span><span class="token operator">...</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        methods<span class="token punctuation">:</span><span class="token punctuation">{</span>
+            <span class="token function">loginReq</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+                    <span class="token operator">...</span><span class="token operator">...</span><span class="token operator">...</span><span class="token operator">...</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        components<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+                XInput
+        <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+        <span class="token operator">&lt;</span><span class="token operator">/</span>script<span class="token operator">&gt;</span>
+</code></pre></div><h2 id="子组件："><a href="#子组件：" aria-hidden="true" class="header-anchor">#</a> 子组件：</h2> <h3 id="父组件："><a href="#父组件：" aria-hidden="true" class="header-anchor">#</a> 父组件：</h3> <pre><code>声明：import BpmRadio from '@/parts/radio'
+注册；
+使用：
+</code></pre> <div class="language- extra-class"><pre class="language-text"><code>    &lt;bpm-radio 
+      :appoRadioOption=&quot;appoRadioOption&quot;  //传数据
+      @optionChange=&quot;optionChange&quot;   //子组件派发事件
+    &gt;       
+
+    &lt;/bpm-radio&gt;
+</code></pre></div><h3 id="子组件：-2"><a href="#子组件：-2" aria-hidden="true" class="header-anchor">#</a> 子组件：</h3> <p>接收参数：</p> <div class="language- extra-class"><pre class="language-text"><code>  props:{
+        appoRadioOption:Array
+     }, 
+   //默认空数组：
+      selectedIds:{
+         type: Array,
+         default: function () {
+                 return []
+         }
+      },
+ 
+    this.$emit('optionChange',this.appoRadioOption[index]) //派发事件并传参
+
+  参数验证与默认：
+    num: {
+      type: Number,
+      default: 100
+    },
+</code></pre></div><h2 id="axios-post请求："><a href="#axios-post请求：" aria-hidden="true" class="header-anchor">#</a> axios-post请求：</h2> <div class="language-js extra-class"><pre class="language-js"><code> axios<span class="token punctuation">.</span><span class="token function">post</span><span class="token punctuation">(</span><span class="token string">'xxxxxxxxxxx'</span><span class="token punctuation">,</span><span class="token punctuation">{</span>
+          userId<span class="token punctuation">:</span><span class="token keyword">this</span><span class="token punctuation">.</span>useId
+        <span class="token punctuation">}</span>
+ <span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">res</span><span class="token punctuation">)</span><span class="token operator">=&gt;</span><span class="token punctuation">{</span>
+           <span class="token keyword">this</span><span class="token punctuation">.</span>$vux<span class="token punctuation">.</span>loading<span class="token punctuation">.</span><span class="token function">hide</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+           <span class="token keyword">if</span><span class="token punctuation">(</span>res<span class="token punctuation">.</span>data<span class="token punctuation">.</span>state<span class="token operator">==</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+               
+           <span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span>
+              <span class="token keyword">this</span><span class="token punctuation">.</span>$vux<span class="token punctuation">.</span>alert<span class="token punctuation">.</span><span class="token function">show</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+                   title<span class="token punctuation">:</span><span class="token string">'提示'</span><span class="token punctuation">,</span>
+                   content<span class="token punctuation">:</span>res<span class="token punctuation">.</span>data<span class="token punctuation">.</span>message
+              <span class="token punctuation">}</span><span class="token punctuation">)</span>
+           <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div><p>或者：</p> <div class="language-js extra-class"><pre class="language-js"><code>   <span class="token function">axios</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+      method<span class="token punctuation">:</span><span class="token string">'POST'</span><span class="token punctuation">,</span>
+      url<span class="token punctuation">:</span><span class="token string">'xxxxxxxx'</span><span class="token punctuation">,</span>
+      data<span class="token punctuation">:</span><span class="token punctuation">{</span>
+          queryKey<span class="token punctuation">:</span>queryKey
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      headers<span class="token punctuation">:</span><span class="token punctuation">{</span>
+        <span class="token string">&quot;token&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;1531798043804ORANMALLEELL&quot;</span>
+      <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">res</span><span class="token punctuation">)</span><span class="token operator">=&gt;</span><span class="token punctuation">{</span>
+</code></pre></div><h3 id="axios-get请求："><a href="#axios-get请求：" aria-hidden="true" class="header-anchor">#</a> axios-get请求：</h3> <div class="language-js extra-class"><pre class="language-js"><code> <span class="token function">axios</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+      method<span class="token punctuation">:</span><span class="token string">'Get'</span><span class="token punctuation">,</span>
+      url<span class="token punctuation">:</span><span class="token string">'xxxxxxxxxx/oorder/getDtl?orderId='</span><span class="token operator">+</span>orderId<span class="token punctuation">,</span>
+ <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">res</span><span class="token punctuation">)</span><span class="token operator">=&gt;</span><span class="token punctuation">{</span>
+</code></pre></div><h2 id="v-if："><a href="#v-if：" aria-hidden="true" class="header-anchor">#</a> v-if：</h2> <div class="language- extra-class"><pre class="language-text"><code>&lt;div class=&quot;btnBox&quot; v-if=&quot;orderStateNum==2&quot;&gt;
+&lt;/div&gt;
+&lt;div v-else&gt;
+   &lt;divider&gt;暂无留言&lt;/divider&gt;
+&lt;/div&gt;
+
+
+  &lt;span v-if=&quot;optionVal=='IT类服务'&quot;&gt;11111&lt;/span&gt;
+  &lt;span v-else-if=&quot;optionVal=='行政办公类服务'&quot;&gt;2222&lt;/span&gt;
+</code></pre></div><h2 id="v-for："><a href="#v-for：" aria-hidden="true" class="header-anchor">#</a> v-for：</h2> <p>遍历数组：</p> <div class="language- extra-class"><pre class="language-text"><code>&lt;div class=&quot;orItem&quot; v-for=&quot;item in orderInfo&quot; @click=&quot;clickItem(item.orderId)&quot;&gt;
+        &lt;div class=&quot;orItemHeader vux-1px-b&quot;&gt;{{statusTag[item.orderState]}}
+        &lt;/div&gt;
+        &lt;div class=&quot;orItemBody vux-1px-b&quot; v-for=&quot;proitem in item.orderList&quot;&gt;
+               &lt;div class=&quot;txtBox&quot;&gt;
+                    &lt;p class=&quot;tit&quot;&gt;2222222222&lt;/p&gt;
+                    &lt;p&gt;2222222222&lt;/p&gt;
+                    &lt;p&gt;2222222222&lt;/p&gt;
+               &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+</code></pre></div><p>带index：</p> <div class="language- extra-class"><pre class="language-text"><code>   &lt;li class=&quot;sliderItem&quot; v-for=&quot;(item,index) in recomment&quot;&gt;{{index}}.{{item.picUrl}}&lt;/li&gt;
+</code></pre></div><h2 id="遍历对象："><a href="#遍历对象：" aria-hidden="true" class="header-anchor">#</a> 遍历对象：</h2> <div class="language- extra-class"><pre class="language-text"><code> &lt;li v-for=&quot;value in object&quot;&gt;
+    {{ value }}
+ &lt;/li&gt;
+ 
+    &amp;获取键名：
+
+   v-for=&quot;(value, key) in object&quot;
+
+    &amp;获取索引：
+
+   v-for=&quot;(value, key, index) in object&quot;
+
+一定范围的取值：
+
+   &lt;span v-for=&quot;n in 10&quot;&gt;{{ n }} &lt;/span&gt;
+</code></pre></div><h2 id="与v-if混合使用："><a href="#与v-if混合使用：" aria-hidden="true" class="header-anchor">#</a> &amp;与v-if混合使用：</h2> <div class="language- extra-class"><pre class="language-text"><code>  &lt;li v-for=&quot;todo in todos&quot; v-if=&quot;!todo.isComplete&quot;&gt;  //v-for优先级更高，v-if作用于每一个for循环
+     {{ todo }}
+  &lt;/li&gt;
+</code></pre></div><h2 id="路由方法："><a href="#路由方法：" aria-hidden="true" class="header-anchor">#</a> 路由方法：</h2> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">this</span><span class="token punctuation">.</span>$router<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token punctuation">{</span>path<span class="token punctuation">:</span><span class="token template-string"><span class="token string">`/order/`</span></span><span class="token operator">+</span>orderId<span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token keyword">this</span><span class="token punctuation">.</span>$router<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token punctuation">{</span>name<span class="token punctuation">:</span><span class="token string">'catalogDtl'</span><span class="token punctuation">,</span>params<span class="token punctuation">:</span><span class="token punctuation">{</span>id<span class="token punctuation">:</span>item<span class="token punctuation">.</span>Fsinger_id<span class="token punctuation">}</span><span class="token punctuation">,</span>query<span class="token punctuation">:</span><span class="token punctuation">{</span>keyworth<span class="token punctuation">:</span><span class="token string">'123lxf'</span><span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token keyword">this</span><span class="token punctuation">.</span>$router<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token punctuation">{</span>path<span class="token punctuation">:</span><span class="token template-string"><span class="token string">`/page20/</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>item<span class="token punctuation">.</span>Fsinger_id<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">`</span></span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+   行间：
+
+     @click<span class="token operator">=</span>“$router<span class="token punctuation">.</span><span class="token function">go</span><span class="token punctuation">(</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span>”
+
+</code></pre></div><h2 id="使用计算属性："><a href="#使用计算属性：" aria-hidden="true" class="header-anchor">#</a> 使用计算属性：</h2> <p><img src="https://user-gold-cdn.xitu.io/2019/7/4/16bbc80d15be9332?w=524&amp;h=106&amp;f=png&amp;s=6242" alt=""></p> <h2 id="动态class："><a href="#动态class：" aria-hidden="true" class="header-anchor">#</a> 动态class：</h2> <h3 id="_1-对象内表达式："><a href="#_1-对象内表达式：" aria-hidden="true" class="header-anchor">#</a> 1. 对象内表达式：</h3> <div class="language- extra-class"><pre class="language-text"><code>如下模板:
+
+    &lt;div class=&quot;static&quot;     v-bind:class=&quot;{ active: isActive, 'text-danger': hasError }&quot;&gt;&lt;/div&gt;
+
+如下 data:
+
+    data: {  isActive: true,  hasError: false}
+
+渲染为:
+
+    &lt;div class=&quot;static active&quot;&gt;&lt;/div&gt;
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code>   :class=&quot;{cate:sortBy=='food'}&quot;
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code>   :class=&quot;{'active':index==serverType,'radioItem':true}&quot;
+</code></pre></div><h3 id="_2-返回字符串的表达式："><a href="#_2-返回字符串的表达式：" aria-hidden="true" class="header-anchor">#</a> 2.返回字符串的表达式：</h3> <div class="language- extra-class"><pre class="language-text"><code> &lt;h4 :class=&quot;item.isPremium?'p':''&quot;&gt;
+    
+</code></pre></div><h3 id="_3-数组内表达式："><a href="#_3-数组内表达式：" aria-hidden="true" class="header-anchor">#</a> 3.数组内表达式：</h3> <div class="language- extra-class"><pre class="language-text"><code>   :class=&quot;[className, isMsg ? 'weui-icon_msg' : ' ']&quot;
+</code></pre></div><p><img src="https://user-gold-cdn.xitu.io/2019/7/4/16bbc83d2b21df97?w=427&amp;h=158&amp;f=png&amp;s=11928" alt=""></p> <h3 id="变量和字符串混合："><a href="#变量和字符串混合：" aria-hidden="true" class="header-anchor">#</a> 变量和字符串混合：</h3> <div class="language- extra-class"><pre class="language-text"><code>:class=&quot;[
+     'el-link',
+    type ? `el-link--${type}` : '',
+    disabled &amp;&amp; 'is-disabled'
+]&quot;
+</code></pre></div><h2 id="设置style："><a href="#设置style：" aria-hidden="true" class="header-anchor">#</a> 设置style：</h2> <p>###对象语法：
+:style=&quot;{'background-image':'url('+img+')'}&quot;</p> <div class="language- extra-class"><pre class="language-text"><code>:style=&quot;{ color: activeColor, fontSize: fontSize + 'px' }&quot; //变量为data中的值
+</code></pre></div><h2 id="路由跳转："><a href="#路由跳转：" aria-hidden="true" class="header-anchor">#</a> 路由跳转：</h2> <p>声明式：</p> <div class="language- extra-class"><pre class="language-text"><code> &lt;router-link :to=&quot;...&quot;&gt;
+</code></pre></div><p>编程式：</p> <div class="language- extra-class"><pre class="language-text"><code>router.push(...)
+this.$router.push({path: '/coach/' + this.$route.params.id, query: queryData});
+</code></pre></div><h2 id="目标路由获取query："><a href="#目标路由获取query：" aria-hidden="true" class="header-anchor">#</a> 目标路由获取query：</h2> <div class="language- extra-class"><pre class="language-text"><code>      this.$route.query.id
+</code></pre></div><h2 id="store"><a href="#store" aria-hidden="true" class="header-anchor">#</a> store:</h2> <pre><code>直接获取store：
+</code></pre> <div class="language- extra-class"><pre class="language-text"><code> this.$store.state.wordId
+</code></pre></div><h2 id="async-await"><a href="#async-await" aria-hidden="true" class="header-anchor">#</a> async await:</h2> <div class="language- extra-class"><pre class="language-text"><code>methods:{
+   async checkBatchOpRight(){
+     let res = await getLabelUsers('1001')   //等一个resolve
+     ...&lt;br&gt;      }&lt;br&gt;  }
+</code></pre></div><h2 id="promise"><a href="#promise" aria-hidden="true" class="header-anchor">#</a> Promise:</h2> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">export</span> <span class="token keyword">function</span> <span class="token function">getLabelUsers</span> <span class="token punctuation">(</span><span class="token parameter">tagId</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+   <span class="token keyword">return</span> <span class="token keyword">new</span> <span class="token class-name">Promise</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">resolve<span class="token punctuation">,</span> reject</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+             <span class="token operator">...</span><span class="token operator">...</span><span class="token operator">...</span>
+             <span class="token function">resolve</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+                  reqSuccess<span class="token punctuation">:</span><span class="token boolean">true</span><span class="token punctuation">,</span>
+                  userList<span class="token punctuation">:</span>res<span class="token punctuation">.</span>data<span class="token punctuation">.</span>userList
+             <span class="token punctuation">}</span><span class="token punctuation">)</span>
+             <span class="token operator">...</span><span class="token operator">...</span><span class="token operator">...</span>
+   <span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="变量与表达式："><a href="#变量与表达式：" aria-hidden="true" class="header-anchor">#</a> 变量与表达式：</h2> <p><img src="https://user-gold-cdn.xitu.io/2019/7/4/16bbc7c586fc3384?w=309&amp;h=87&amp;f=png&amp;s=5462" alt=""></p> <h2 id="为dom元素添加事件："><a href="#为dom元素添加事件：" aria-hidden="true" class="header-anchor">#</a> 为dom元素添加事件：</h2> <p><img src="https://user-gold-cdn.xitu.io/2019/7/4/16bbc859a23ffa25?w=465&amp;h=45&amp;f=png&amp;s=3547" alt=""></p> <h2 id="css中使用背景图片："><a href="#css中使用背景图片：" aria-hidden="true" class="header-anchor">#</a> css中使用背景图片：</h2> <div class="language- extra-class"><pre class="language-text"><code>    background:url('../../assets/cjbg.png');
+</code></pre></div><h2 id="nexttick："><a href="#nexttick：" aria-hidden="true" class="header-anchor">#</a> nextTick：</h2> <div class="language- extra-class"><pre class="language-text"><code>Vue.$nextTick(function(){
+    console.log(vm.$el.textContent) 
+})
+</code></pre></div><h2 id="watch"><a href="#watch" aria-hidden="true" class="header-anchor">#</a> watch:</h2> <div class="language-js extra-class"><pre class="language-js"><code>watch<span class="token punctuation">:</span><span class="token punctuation">{</span>
+      receiveForm<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+            deep<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>  <span class="token comment">//data中对象的值的变化</span>
+            <span class="token function-variable function">handler</span><span class="token punctuation">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">newVal<span class="token punctuation">,</span>oldVal</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+                    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">modify</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+            <span class="token punctuation">}</span>
+      <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/FAQ/tool/collet.html" class="prev">
+          /FAQ/tool/collet.html
+        </a></span> <!----></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.5e77e4be.js" defer></script><script src="/assets/js/2.692b3673.js" defer></script><script src="/assets/js/19.eb48f4ad.js" defer></script>
+  </body>
+</html>
